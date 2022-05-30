@@ -1,0 +1,230 @@
+
+body {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* EMPIEZA TITULOS */
+.contenedor {
+    padding: 70px 0;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: aliceblue;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 70px;
+
+
+}
+
+h3{
+    color: aliceblue;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+p{
+    color: aliceblue;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+h4{
+    color: aliceblue;
+    font-size: x-large;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+/* TERMINA TITULOS */
+
+/* BARRA DE NAVEGACIÓN */
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav a{
+    color: aliceblue;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* TERMINA BARRA DE NAVEGACIÓN */
+
+/* EMPIEZA HEADER */
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.textos-header h1{
+    padding: 20px 0;
+    font-size: 50px;
+    color: aliceblue;
+
+
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+/* TERMINA HEADER */
+
+/* EMPIEZA FORMULARIO */
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background-color: dimgray;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+/* TERMINA FORMULARIO */
+
+
+/* EMPIEZA CATALOGO */
+
+.contenedor-productos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tituloCatalogo{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.box img{
+    width: 220px;
+    height: 280px;
+    border-radius: 30px;
+}
+
+.box{
+    margin: 15px;
+}
+
+.box p{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* TERMINA CATALOGO /*
+
+/* EMPIEZA FOOTER */
+
+.pie{
+    width: 100%;
+    background-color: rgb(22, 20, 20);
+}
+
+.pie .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    
+}
+
+.pie .grupo-1 .box h2{
+    color: aliceblue;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie .grupo-1 .box p{
+    color: beige;
+    margin-bottom: 10px;
+}
+
+.pie .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: aliceblue;
+    margin-right: 10px;
+    background-color: #000428;
+    text-align: center;
+
+}
+
+.pie .grupo-2{
+    background-color: rgb(37, 33, 33);
+    padding: 15px 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.pie .grupo-2 small{
+    font-size: 15px;
+}
+
+/* REDES SOCIALES */
+
+.redes-sociales{
+    height: 200px;
+}
+
+/* TERMINA REDES SOCIALES */
